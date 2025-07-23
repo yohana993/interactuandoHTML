@@ -1,0 +1,44 @@
+*
+#total-precio::before,
+[id^="Precio"]::before{
+    content: '💰$';
+}
+
+h1::after {
+    content: ' 🛒';
+}
+
+#total-items::before {
+    content: ' 🛒';
+}
+
+h1 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.Contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.Prod1, .Prod2, .Prod3 {
+    display: flex;
+    border-bottom: 3px;
+    width: 300px;
+    height: 300px;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+button {
+    border: 2px solid #000;
+    text-align: center;
+    background-color: rgb(230, 216, 199);
+    border-radius: 3px;
+}
